@@ -1,0 +1,15 @@
+h1 {
+    @include font-size(120px);
+    color: #FCFCFC;
+    line-height: 117px;
+}
+
+h2 {
+    @include font-size(51px);
+    color: #FCFCFC;
+}
+
+h3 {
+    @include font-size(49px);
+    color: #152D20;
+}

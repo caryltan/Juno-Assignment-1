@@ -1,0 +1,5 @@
+@mixin font-size($size-value) {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: $size-value;
+    text-transform: uppercase;
+  }

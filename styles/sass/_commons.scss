@@ -13,3 +13,8 @@ h3 {
     @include font-size(49px);
     color: #152D20;
 }
+
+.wrapper {
+    width: 85%;
+    margin: 0 auto;
+}

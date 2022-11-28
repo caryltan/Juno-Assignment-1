@@ -247,3 +247,14 @@ h3 {
   text-transform: uppercase;
   color: #152D20;
 }
+
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url(../../Assignment-1/assets/img/image-1.jpg);
+  height: 100vh;
+  background-size: cover;
+}

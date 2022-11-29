@@ -269,6 +269,7 @@ button {
   background-color: #FCFCFC;
   padding: 10px 20px;
   border: none;
+  text-transform: uppercase;
 }
 
 nav {
@@ -382,4 +383,63 @@ header h1 {
 }
 .gallery .gallery-container ul img {
   width: 100%;
+}
+
+footer {
+  background-color: #152D20;
+  width: 100%;
+  padding: 50px 0;
+}
+footer h4 {
+  color: #FCFCFC;
+  text-align: center;
+  font-size: 22px;
+}
+footer .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer ul {
+  list-style: none;
+}
+footer ul a {
+  text-decoration: none;
+  color: #FCFCFC;
+  font-size: 22px;
+}
+footer .contact-info {
+  text-align: right;
+}
+footer .contact-info p {
+  line-height: 10px;
+}
+footer .contact-info h4 {
+  text-align: right;
+}
+footer .form-mailing {
+  display: inline;
+}
+footer .form-mailing input {
+  display: inline;
+  width: 60%;
+  height: 45px;
+  margin: 0;
+}
+footer .form-mailing button {
+  background-color: #000000;
+  color: #FCFCFC;
+}
+
+.copyright {
+  background-color: #000000;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+}
+.copyright p {
+  margin: 0;
 }

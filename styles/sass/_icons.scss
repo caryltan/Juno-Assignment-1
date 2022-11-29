@@ -17,3 +17,17 @@
         display: none;
     }
 }
+
+.mobile-menu {
+    position: relative;
+    .fa-bars {
+        color: white;
+        visibility: hidden;
+        @include mobile-responsive {
+            visibility: visible;
+            position: absolute;
+            right: 0;
+            top: 50px;
+        }
+    }
+}

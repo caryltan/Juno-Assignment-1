@@ -2,6 +2,9 @@
     background-color: #152D20;
     display: flex;
     width: 100%;
+    @include mobile-responsive {
+        flex-direction: column;
+    }
     h4 {
         font-size: 35px;
     }
@@ -9,6 +12,9 @@
         display: flex;
         justify-content: space-between;
         list-style: none;
+        @include mobile-responsive {
+            flex-direction: column;
+        }
         li {
             flex-basis: 30%;
             text-align: center;

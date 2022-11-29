@@ -10,6 +10,9 @@ footer {
     .wrapper {
         display: flex;
         justify-content: space-between;
+        @include mobile-responsive {
+            flex-direction: column;
+        }
     }
     ul {
         list-style: none;
@@ -21,11 +24,17 @@ footer {
     }
     .contact-info {
         text-align: right;
+        @include mobile-responsive {
+            text-align: center;
+        }
         p {
             line-height: 10px;
         }
         h4 {
             text-align: right;
+            @include mobile-responsive {
+                text-align: center;
+            }
         }
     }
     .form-mailing {

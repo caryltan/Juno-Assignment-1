@@ -2,8 +2,14 @@
     width: 100%;
     background-color: #152D20;
     padding: 100px 0;
+    @include mobile-responsive {
+        padding: 50px 0;
+    }
     .wrapper {
     display: flex;
+    @include mobile-responsive {
+        flex-direction: column;
+        }
     }
     .image-container {
         flex-basis: 30%;
@@ -19,5 +25,9 @@
     }
     h2 {
         margin-top: 0;
+        @include mobile-responsive {
+            font-size: 2rem;
+            padding-top: 30px;
+        }
     }
 }

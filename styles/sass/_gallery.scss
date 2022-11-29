@@ -1,0 +1,25 @@
+.gallery {
+    background-color: #C3D3CB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0 100px 0;
+    h3 {
+        text-align: center;
+    }
+    .gallery-container {
+        ul {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            li {
+                flex-basis: 30%;
+                width: 100%;
+                list-style: none;
+            }
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

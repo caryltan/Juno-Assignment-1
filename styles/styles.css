@@ -253,8 +253,25 @@ h3 {
   margin: 0 auto;
 }
 
+nav ul {
+  display: inline-block;
+}
+nav li {
+  display: inline;
+  margin-right: 30px;
+}
+nav a {
+  text-decoration: none;
+  color: #FCFCFC;
+}
+
 header {
   background-image: url(../../Assignment-1/assets/img/image-1.jpg);
   height: 100vh;
   background-size: cover;
+}
+header h1 {
+  text-align: right;
+  word-spacing: 100vw;
+  margin-top: 75px;
 }

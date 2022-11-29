@@ -1,0 +1,16 @@
+.fa-brands {
+    color: #FCFCFC;
+}
+
+.social-icons {
+    ul {
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+    li {
+        padding: 20px 0;
+    }
+}

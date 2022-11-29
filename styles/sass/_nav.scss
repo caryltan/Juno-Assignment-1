@@ -11,4 +11,9 @@ nav {
         text-decoration: none;
         color: #FCFCFC;
     }
+    @include mobile-responsive {
+        display: none;
+        padding: 0;
+        margin: 0;
+    }
 }

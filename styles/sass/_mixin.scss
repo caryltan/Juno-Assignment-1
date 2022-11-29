@@ -3,3 +3,7 @@
     font-size: $size-value;
     text-transform: uppercase;
   }
+
+@mixin mobile-responsive () {
+    @media (max-width: 768px) { @content; }
+  }

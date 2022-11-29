@@ -7,5 +7,11 @@ header {
         word-spacing: 100vw;
         margin-top: 75px;
         padding-right: 100px;
+        @include mobile-responsive {
+            font-size: 2rem;
+            word-spacing: 0;
+            margin: 0;
+            text-align: left;
+        }
     }
 }

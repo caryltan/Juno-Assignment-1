@@ -260,6 +260,11 @@ p {
   width: 85%;
   margin: 0 auto;
 }
+@media (max-width: 768px) {
+  .wrapper {
+    width: 90%;
+  }
+}
 
 button {
   font-family: "Cormorant Garamond", serif;
@@ -286,6 +291,13 @@ nav a {
   text-decoration: none;
   color: #FCFCFC;
 }
+@media (max-width: 768px) {
+  nav {
+    display: none;
+    padding: 0;
+    margin: 0;
+  }
+}
 
 header {
   background-image: url(../../Assignment-1/assets/img/image-1.jpg);
@@ -297,6 +309,14 @@ header h1 {
   word-spacing: 100vw;
   margin-top: 75px;
   padding-right: 100px;
+}
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+    word-spacing: 0;
+    margin: 0;
+    text-align: left;
+  }
 }
 
 .fa-brands {
@@ -319,6 +339,11 @@ header h1 {
 }
 .social-icons li {
   padding: 15px 0;
+}
+@media (max-width: 768px) {
+  .social-icons {
+    display: none;
+  }
 }
 
 .about {
@@ -383,6 +408,44 @@ header h1 {
 }
 .gallery .gallery-container ul img {
   width: 100%;
+}
+
+.cta-panel {
+  background-color: #152D20;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+.cta-panel h4 {
+  font-size: 35px;
+}
+.cta-panel ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+.cta-panel ul li {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  text-align: center;
+}
+.cta-panel a {
+  text-decoration: none;
+  color: #FCFCFC;
+}
+.cta-panel .animal-spotlight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.cta-panel .animal-spotlight a {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
 }
 
 footer {

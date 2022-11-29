@@ -14,7 +14,25 @@ h3 {
     color: #152D20;
 }
 
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FCFCFC;
+}
+
 .wrapper {
     width: 85%;
     margin: 0 auto;
+}
+
+button {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 600;
+    background-color: #FCFCFC;
+    padding: 10px 20px;
+    border: none;
 }
